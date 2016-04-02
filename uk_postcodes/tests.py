@@ -68,6 +68,4 @@ class UKPostcodeSerializerTest(APITestCase):
 
         for postcode in invalid_postcodes:
             serializer = UKPostcodeSerializer(data={'postcode': postcode})
-            if serializer.is_valid():
-                print postcode
             self.assertFalse(serializer.is_valid())
