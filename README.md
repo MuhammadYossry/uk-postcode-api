@@ -17,4 +17,4 @@ Run the development server:
 python uk-postcode/manage.py runserver
 ```
 
-Browse the documentation at /docs
+You can browse the API [documentation](http://mohamedyosry.pythonanywhere.com/docs/)
